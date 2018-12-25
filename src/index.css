@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
 }
-.App{
+.Aish{
   max-width: 500px;
   width: 100%;
   margin-left: auto;
@@ -13,7 +13,7 @@
 .user{
   font-weight: 300;
 }
-h1{
+.Aish h1{
   margin-top: 0; 
   font-size: 28px;
 }
@@ -50,7 +50,7 @@ a{
   left: 0;
 }
 @media (max-width: 500px){
-  h1, .date{
+  .Aish h1, .date{
     margin-bottom: 10px;
   }
   .date{
