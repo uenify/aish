@@ -80,7 +80,7 @@ class Aish extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="Aish">
         <header className="header">
           <a href={"https://github.com/" + this.state.user + '/' + this.state.repo }><h1><span className="user">{this.state.user}/</span>{this.state.repo}</h1></a>
           <span className="date">{this.state.date > 0 ? (this.state.date > 1 ? this.state.date + ' days ago': '1 day ago') : 'Today'}</span>
